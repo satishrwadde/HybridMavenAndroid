@@ -10,8 +10,6 @@ import ecommerce.hybrid.utils.Ecommerce_Utils;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 
@@ -50,7 +48,7 @@ public class HybridTestRunner extends Capabilities{
 	  loginPom.sendName().sendKeys("Satish Wadde");
 	  loginPom.sendGender().click();
 	  loginPom.sendButton().click();
-	  WebElement e=productsPom.scrollToProduct(product);
+	  productsPom.scrollToProduct(product);
 	  String Actual=productsPom.sendAddToCart(product);
 	  Assert.assertEquals(Actual, "ADDED TO CART");
       productsPom.sendCartButton().click();
