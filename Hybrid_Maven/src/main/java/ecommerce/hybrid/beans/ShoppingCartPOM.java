@@ -38,8 +38,8 @@ public class ShoppingCartPOM{
 	public List<Float> validatePurchase() {
 		
 		float sum=0;
-		float p=0,screenS=0;
-		String  price=null,screenSum=null;
+		float p=0,totalPurchaseAmount=0;
+		String  price=null,totalPurchaseAmt=null;
 		List<Float> list=new ArrayList<Float>();
 		int count=driver.findElements(By.id("com.androidsample.generalstore:id/productPrice")).size();
 		System.out.println("No. of Products :"+count);
@@ -52,11 +52,11 @@ public class ShoppingCartPOM{
 			sum=sum+p;
 		}
 		
-		screenSum=driver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl")).getText();
-		screenSum=screenSum.substring(1);
-		screenS=Float.parseFloat(screenSum);
+		totalPurchaseAmt=driver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl")).getText();
+		totalPurchaseAmt=totalPurchaseAmt.substring(1);
+		totalPurchaseAmount=Float.parseFloat(totalPurchaseAmt);
 		
-		list.add(screenS);
+		list.add(totalPurchaseAmount);
 		list.add(sum);
 		
 		return list;

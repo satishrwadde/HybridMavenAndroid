@@ -65,7 +65,7 @@ public class HybridTestRunner extends Capabilities{
 	  productsPom.sendAddToCart2Products();
 	  productsPom.sendCartButton().click();
 	  List<Float> list=shoppingCartPom.validatePurchase();
-	  System.out.println("Final price on screen : "+list.get(0)+" Price after sum : "+list.get(1));
+	  System.out.println("Final price on screen : "+list.get(0)+" Sum of price of products : "+list.get(1));
 	  Assert.assertEquals(list.get(0), list.get(1));
 	  eUtils.tapElement();
 	//eUtils.longPressElement();
