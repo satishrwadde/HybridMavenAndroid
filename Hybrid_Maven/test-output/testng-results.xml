@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="75229" started-at="2020-08-08T05:59:11Z" finished-at="2020-08-08T06:00:27Z">
+  <suite name="Suite" duration-ms="46824" started-at="2020-08-08T09:37:24Z" finished-at="2020-08-08T09:38:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="75229" started-at="2020-08-08T05:59:11Z" finished-at="2020-08-08T06:00:27Z">
+    <test name="Test" duration-ms="46824" started-at="2020-08-08T09:37:24Z" finished-at="2020-08-08T09:38:11Z">
       <class name="ecommerce.hybrid.testrunner.HybridTestRunner">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="beforeTest" is-config="true" duration-ms="9525" started-at="2020-08-08T05:59:11Z" finished-at="2020-08-08T05:59:21Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="beforeTest" is-config="true" duration-ms="9227" started-at="2020-08-08T09:37:24Z" finished-at="2020-08-08T09:37:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC01()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="TC01" duration-ms="16557" started-at="2020-08-08T05:59:21Z" finished-at="2020-08-08T05:59:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-08-08T05:59:38Z" finished-at="2020-08-08T05:59:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="beforeTest" is-config="true" duration-ms="10928" started-at="2020-08-08T05:59:38Z" finished-at="2020-08-08T05:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC02()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="TC02" duration-ms="14595" started-at="2020-08-08T05:59:48Z" finished-at="2020-08-08T06:00:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-08-08T06:00:03Z" finished-at="2020-08-08T06:00:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="beforeTest" is-config="true" duration-ms="10606" started-at="2020-08-08T06:00:03Z" finished-at="2020-08-08T06:00:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC03()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="TC03" duration-ms="12980" started-at="2020-08-08T06:00:14Z" finished-at="2020-08-08T06:00:27Z">
+        <test-method status="PASS" signature="TC03()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="TC03" duration-ms="37576" started-at="2020-08-08T09:37:33Z" finished-at="2020-08-08T09:38:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-08-08T06:00:27Z" finished-at="2020-08-08T06:00:27Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-08-08T09:38:11Z" finished-at="2020-08-08T09:38:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -48,7 +48,7 @@ public class LoginPOM{
 	
 	public WebElement sendGender() {
 			
-			return 	driver.findElementById("com.androidsample.generalstore:id/radioFemale");
+			return 	driver.findElementById("com.androidsample.generalstores:id/radioFemale");
 		}
 	public WebElement sendButton() {
 		

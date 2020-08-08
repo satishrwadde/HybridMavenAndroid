@@ -5,7 +5,7 @@
     <classes>
       <class name="ecommerce.hybrid.testrunner.HybridTestRunner">
         <methods>
-          <include name="TC01"/>
+          <include name="TC03"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>

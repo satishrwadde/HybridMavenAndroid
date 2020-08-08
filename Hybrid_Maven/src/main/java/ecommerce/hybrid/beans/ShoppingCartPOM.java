@@ -35,7 +35,7 @@ public class ShoppingCartPOM{
 
 		
 
-	public List<Float> validatePurchase() {
+	public List<Float> validatePrices() {
 		
 		float sum=0;
 		float p=0,totalPurchaseAmount=0;
