@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25487" started-at="2020-08-08T05:27:50Z" finished-at="2020-08-08T05:28:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25487" started-at="2020-08-08T05:27:50Z" finished-at="2020-08-08T05:28:15Z">
+      <class name="ecommerce.hybrid.testrunner.HybridTestRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="beforeTest" is-config="true" duration-ms="9345" started-at="2020-08-08T05:27:50Z" finished-at="2020-08-08T05:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="TC01" duration-ms="16123" started-at="2020-08-08T05:27:59Z" finished-at="2020-08-08T05:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ecommerce.hybrid.testrunner.HybridTestRunner@f4168b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-08-08T05:28:15Z" finished-at="2020-08-08T05:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ecommerce.hybrid.testrunner.HybridTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
