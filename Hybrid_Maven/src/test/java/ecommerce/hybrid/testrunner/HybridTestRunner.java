@@ -44,13 +44,13 @@ public class HybridTestRunner extends Capabilities{
 		shoppingCartPom=new ShoppingCartPOM(driver);
 	}
 	
-  @Test
+  @Test(enabled=false)
   public void TC01() {
 	  
 	  try {
 		String product="Air Jordan 9 Retro";	
 		  loginPom.sendCountry("Angola").click();
-		  loginPom.sendName().sendKeys("Satish Wadde");
+		  loginPom.sendName().sendKeys("Shilpa Wadde");
 		  loginPom.sendGender().click();
 		  loginPom.sendButton().click();
 		  productsPom.scrollToProduct(product);
@@ -70,7 +70,7 @@ public class HybridTestRunner extends Capabilities{
 	  	
 	  try {
 		loginPom.sendCountry("Angola").click();
-		  loginPom.sendName().sendKeys("Satish Wadde");
+		  loginPom.sendName().sendKeys("Shilpa Wadde");
 		  loginPom.sendGender().click();
 		  loginPom.sendButton().click();
 		  productsPom.sendAddToCart2Products();
@@ -79,17 +79,17 @@ public class HybridTestRunner extends Capabilities{
 		  System.out.println("Final price on screen : "+list.get(0)+" Sum of price of products : "+list.get(1));
 		  Assert.assertEquals(list.get(0), list.get(1));
 		  eUtils.tapElement();
-		  eUtils.longPressElement();
+		//  eUtils.longPressElement();
 	} catch (Exception e) {
 
-	//	e.printStackTrace();
-		captureScreenshot.screenshot();
+	    e.printStackTrace();
+	//	captureScreenshot.screenshot();
 	}
 }
   
   
 	
-  @Test
+  @Test(enabled=false)
   public void TC02() {
 
 	  	try {
