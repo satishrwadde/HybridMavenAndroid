@@ -81,8 +81,7 @@ public class Ecommerce_Utils {
 			
 			//tact.press(ElementOption.element(ele)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))).release().perform(); 
 
-	        Thread.sleep(8000);
-
+	   
 	}*/
 
 }
